@@ -10,6 +10,10 @@ import { Link } from "@remix-run/react";
 import { HELP_NAV_ITEMS } from "~/components/HelpMenu/HelpMenu";
 import SideNavigationCSS from "./SideNavigation.css";
 
+/**
+ * @description
+ * CSS for this specific component.
+ */
 export const links = () => [{ rel: "stylesheet", href: SideNavigationCSS }];
 
 const { Sider } = Layout;

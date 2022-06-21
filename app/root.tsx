@@ -10,7 +10,10 @@ import {
 import antdStyles from "antd/dist/antd.css";
 import { AppLayout } from "~/components/AppLayout";
 import { TopNavigation } from "~/components/TopNavigation";
-import { SideNavigation } from "~/components/SideNavigation";
+import {
+  SideNavigation,
+  links as SideNavigationCSS,
+} from "~/components/SideNavigation";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -19,7 +22,7 @@ export const meta: MetaFunction = () => ({
 });
 
 export function links() {
-  return [{ rel: "stylesheet", href: antdStyles }];
+  return [{ rel: "stylesheet", href: antdStyles }, ...SideNavigationCSS()];
 }
 
 function Document({

@@ -1,0 +1,1 @@
+import{g as i}from"/build/_shared/chunk-EZQCBYGN.js";import{b as o,c as t,e as n}from"/build/_shared/chunk-UVS4LW6G.js";n();n();var r=o(t());function e(){return[...i()]}var f=()=>r.default.createElement(r.default.Fragment,null,"index page"),p=f;export{p as default,e as links};
